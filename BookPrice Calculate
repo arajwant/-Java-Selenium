@@ -1,0 +1,27 @@
+public class BookPrice {
+
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+			
+		double SalesTax = 0.075;
+		double TotalPrice;
+		double Tax = 0;
+		float BookPrice = 0;
+		int num;
+
+		Scanner scan  = new Scanner(System.in);
+		
+		System.out.println("Enter Book Price  :");
+		BookPrice = scan.nextFloat();
+		System.out.println("Your Book Price before Tax is :" + "$"+BookPrice);
+		
+		Tax =(BookPrice*SalesTax);
+		System.out.println("Here is your Tax  :" + "$"+Tax);
+		
+		TotalPrice = Tax+BookPrice;
+        System.out.println("Here is your Book's Total Price  :" + "$"+TotalPrice);
+        num = scan.nextInt();
+	}
+
+}
