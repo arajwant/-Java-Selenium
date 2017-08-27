@@ -17,10 +17,10 @@ public class BookPrice {
 		System.out.println("Your Book Price before Tax is :" + "$"+BookPrice);
 		
 		Tax =(BookPrice*SalesTax);
-		System.out.println("Here is your Tax  :" + "$"+Tax);
+		System.out.println("Book Price Tax Applied :" + "$"+Tax);
 		
 		TotalPrice = Tax+BookPrice;
-        System.out.println("Here is your Book's Total Price  :" + "$"+TotalPrice);
+        System.out.println("Book's Total Price  :" + "$"+TotalPrice);
         num = scan.nextInt();
 	}
 
